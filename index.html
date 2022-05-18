@@ -1,12 +1,48 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
+<!DOCTYPE html> <!-- Esta linha informa para o navegador que é um  documento html -->
+
+<html lang="pt-BR"> <!-- Qual será a linguagem Portugue do Brasil -->
+
+<head> <!-- O head guarda os metadados. Não aparece para o usuário, só para o navegador  -->
+    <meta charset="UTF-8"> <!-- Informa a codificação do documento, os caracteres -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Vai adaptar para varios despositivos -->
+    <meta name="Um bot que irá moderar e deixar a sua comunidade segura de um jeito fácil">
+    <title>Balle Bot - Modere a sua comunidade do Discord</title> <!-- O título do documento que fica na aba do navegador-->
+    <link rel="stylesheet" type="text/css" href="style.css"> <!-- O link para o arquivo css -->
 </head>
-<body>
-    
+
+<body> <!-- O body é o corpo do documento, onde ficam todos os elementos -->
+    <header class="cabecalho"> <!-- Cabeçalho página-->
+        <img clas="cabecalho-imagem" src="/imagens/logo.svg" alt="Logo da comunidae Ballerini"> <!-- img diz que a tag é de imagem e src é de source/caminho onde esta a imagem. O alt é de alternativo casa a imagem não carregue-->
+        <nav class="cabecalho-menu"> <!-- menu de navegação-->
+            <a class="cabecalho-menu-item" href="https://discord.gg/wagxzStdcR">Comunidade Ballerini</a> <!-- <a> de ancora, são links-->
+            <a class="cabecalho-menu-item">Tutorial</a>
+            <a class="cabecalho-menu-item">Open Source</a>
+            <a class="cabecalho-menu-item">Comandos</a>
+        </nav>
+    </header>
+
+    <main class="conteudo"><!-- Principal -->
+        <section class="conteudo-principal"> <!-- Seção -->
+            <div class="conteudo-principal-escrito">
+                <h1 class="conteudo-principal-escrito-titulo">Balle Bot</h1>
+                <h2 class="conteudo-principal-subtitulo">Deixe a sua comunidade segura de um jeito fácil</h2>
+                <button class="conteudo-principal-escrito-botao" >Me adicione</button> <!-- Botão -->
+            </div>
+            <img class="conteudo-principal-imagem" src="/imagens/ballebot.svg" alt="Imagem da Balle Bot">
+        </section>
+            
+        <section class="conteudo-secundario">
+            <h3 class="conteudo-secundario-titulo">O que ela faz por você?</h3>
+            <p class="conteudo-secundario-paragrafo">1. Cria um <strong>sistema de verificação capcha</strong> para novos membros garantirem que não são robôs</p>
+            <p class="conteudo-secundario-paragrafo">2. Possui um <strong>sistema de banimento automático</strong> para links suspeitos que forem enviados na comunidae</p>
+            <p class="conteudo-secundario-paragrafo">3. <strong>Sistema de avisos e banimento manual</strong>, para pessoas administradoras utilizarem</p>
+        </section>
+        
+    </main>
+
+    <footer class="rodape"> <!-- Rodapé página -->
+        <img class="rodape-imagem" src="/imagens/ballerini.svg">
+    </footer>    
 </body>
 </html>
